@@ -1,14 +1,15 @@
-import { createApp } from "vue";
+import React, { Component } from "react";
 
-// import the root component App from a single-file component.
-// import App from "./App.vue";
+class App extends Component {
+  state = {};
 
-const app = createApp({
-  data() {
-    return {
-      message: "Hello World",
-    };
-  },
-});
+  handleRestart = () => {
+    window.location.reload();
+  };
 
-app.mount("#app");
+  render() {
+    return <div className=" text-5xl">Hello World</div>;
+  }
+}
+
+export default App;
