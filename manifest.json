@@ -4,7 +4,6 @@
   "description": "Shows a calendar view every time you open a new tab.",
   "version": "1.0",
   "author": "NodleStudios LLC",
-  "default_locale": "en",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
