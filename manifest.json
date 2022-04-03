@@ -1,13 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Calendar Tab",
-  "description": "Shows a calendar view every time you open a new tab.",
-  "version": "1.0",
+  "name": "Full Year Calendar Tab",
+  "description": "Shows a year calendar view when you open a new tab, also highlights todays date.",
+  "version": "0.0.1",
   "author": "NodleStudios LLC",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "permissions": ["storage"],
   "icons": {
     "16": "icons/icon-16.png",
     "48": "icons/icon-48.png",
