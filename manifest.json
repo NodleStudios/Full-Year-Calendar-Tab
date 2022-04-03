@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Full Year Calendar Tab",
   "description": "Shows a year calendar view when you open a new tab, also highlights todays date.",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "author": "NodleStudios LLC",
   "chrome_url_overrides": {
     "newtab": "index.html"
