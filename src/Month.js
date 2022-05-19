@@ -14,7 +14,7 @@ class Month extends Component {
   render() {
     return (
       <div className="">
-        <h2 className=" font-medium text-xl text-gray-400 text-center">
+        <h2 className=" font-medium text-xl text-gray-400 dark:text-gray-300 text-center">
           {this.month}
         </h2>
         <div className="grid grid-cols-7 gap-1 mt-2">

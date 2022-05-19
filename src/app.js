@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <section className="my-10 lg:my-16">
         <div className="wrap">
-          <div className="text-4xl font-bold text-center text-gray-400">
+          <div className="text-4xl font-bold text-center text-gray-400 dark:text-gray-300">
             {this.year}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">

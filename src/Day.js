@@ -6,7 +6,7 @@ class Day extends Component {
   day = this.props.day;
   month = this.props.month;
   classString =
-    "h-8 w-8 flex items-center justify-center rounded-full text-gray-500 " +
+    "h-8 w-8 flex items-center justify-center rounded-full text-gray-500 dark:text-gray-300 " +
     decideDayClass(this.visibility, this.day, this.month);
 
   render() {
